@@ -1,0 +1,61 @@
+.cl-orange {
+  color: #ec5242;
+}
+
+.cl-black {
+  color: #272a31;
+}
+
+.cl-gray {
+  color: #d3d3d3;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    height: 120px;
+  }
+}
+
+/* Navbar Section */
+.navbar {
+  position: fixed;
+}
+
+.top-nav-div {
+  height: 30px;
+}
+
+.bottom-nav-div {
+  height: 90px;
+}
+
+.nav-logo {
+  height: 80px;
+  width: auto;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.last-item {
+  border: 4px solid #ec5242;
+}
+
+.hide-div {
+  position: relative;
+  left: -150px;
+  z-index: 3;
+  transition: 0.3s ease-in;
+}
+
+.show-div {
+  left: 0;
+  transition: 0.3s ease-in;
+}
