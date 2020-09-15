@@ -72,6 +72,10 @@
   .card-program-text {
     font-size: 1em;
   }
+
+  .about {
+    height: 690px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -81,7 +85,6 @@
 
   .navbar {
     height: 120px;
-    z-index: 3;
   }
 
   .nav-logo {
@@ -137,6 +140,10 @@
   .card-program-text {
     font-size: 1em;
   }
+
+  .about {
+    height: 930px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -160,12 +167,17 @@
   .card-program-text {
     font-size: 1em;
   }
+
+  .about {
+    height: 930px;
+  }
 }
 
 /* Navbar Section */
 
 .navbar {
   position: fixed;
+  z-index: 3;
 }
 
 .top-nav-div {
@@ -271,4 +283,26 @@
 
 .prices {
   background-color: #d3d3d3;
+}
+
+/* About Page - About Section */
+
+.about {
+  background-image: url(../images/program-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.about h1 {
+  font-size: 7em;
+}
+
+.about .card-text {
+  font-size: 1.4em;
+}
+
+.opacity {
+  opacity: 0.6;
 }
