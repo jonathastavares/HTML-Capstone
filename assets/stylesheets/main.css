@@ -1,6 +1,12 @@
 body {
-  font-family: "font-1";
-  font-family: Cambria;
+  font-family:
+  "font-1",
+  Cambria,
+  Cochin,
+  Georgia,
+  Times,
+  "Times New Roman",
+  serif;
 }
 
 .cl-orange {
