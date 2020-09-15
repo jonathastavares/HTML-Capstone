@@ -1,3 +1,7 @@
+body {
+  font-family: "font-1";
+}
+
 .cl-orange {
   color: #ec5242;
 }
@@ -13,6 +17,11 @@
 .gradient {
   background: linear-gradient(to bottom, #ffffffc0, #ffffff9f);
   z-index: 2;
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url("/assets/fonts/Lato-Black.ttf");
 }
 
 @media only screen and (min-width: 1px) {
