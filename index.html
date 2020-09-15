@@ -26,63 +26,85 @@
   </head>
   <body>
     <header>
-      <nav class="navbar w-100 p-0 bg-white">
-        <div
-          class="d-none d-md-flex justify-content-end align-items-center top-nav-div bg-dark px-5 w-100"
-        >
-          <a href="#"><i class="fab fa-facebook-f text-white px-2"></i></a>
-          <a href="#"><i class="fab fa-twitter text-white px-2"></i></a>
-          <a class="text-white px-2" href="#">English</a>
-          <a class="text-white px-2" href="#">My Page</a>
-          <a class="text-white px-2" href="#">Logout</a>
+      <nav class="navbar w-100 p-0">
+        <div class="d-none d-md-block top-nav-div bg-dark px-5 w-100">
+          <div class="container d-flex justify-content-end align-items-center">
+            <a href="#"><i class="fab fa-facebook-f text-white px-2"></i></a>
+            <a href="#"><i class="fab fa-twitter text-white px-2"></i></a>
+            <a class="text-white px-2" href="#">English</a>
+            <a class="text-white px-2" href="#">My Page</a>
+            <a class="text-white px-2" href="#">Logout</a>
+          </div>
         </div>
         <div
-          class="bottom-nav-div w-100 d-none d-md-flex justify-content-between align-items-center bg-white px-5"
+          class="bottom-nav-div d-none w-100 d-md-flex justify-content-between align-items-center bg-white px-5"
         >
-          <div>
-            <img
-              class="nav-logo"
-              src="assets/images/CC_Global_Summit_2015.png"
-              alt="CC Global Summit 2015 logo"
-            />
-          </div>
-          <div>
-            <ul class="d-flex nav-list">
-              <li><a class="px-2 px-lg-4 text-dark" href="#">About</a></li>
-              <li><a class="px-2 px-lg-4 text-dark" href="#">Program</a></li>
-              <li><a class="px-2 px-lg-4 text-dark" href="#">Join</a></li>
-              <li><a class="px-2 px-lg-4 text-dark" href="#">Sponsor</a></li>
-              <li><a class="px-2 px-lg-4 text-dark" href="#">News</a></li>
-              <li>
-                <a class="p-2 mx-lg-5 text-dark cl-orange last-item" href="#"
-                  >CC Campaign</a
-                >
-              </li>
-            </ul>
+          <div class="container">
+            <div>
+              <a href="index.html">
+                <img
+                  class="nav-logo"
+                  src="assets/images/ibanez-logo.png"
+                  alt="CC Global Summit 2015 logo"
+                />
+              </a>
+            </div>
+            <div>
+              <ul class="d-flex nav-list mb-0">
+                <li>
+                  <a
+                    class="px-2 px-lg-4 text-dark"
+                    href="assets/pages/about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a class="px-2 px-lg-4 text-dark" href="#">Program</a>
+                </li>
+                <li>
+                  <a
+                    class="px-2 px-lg-4 text-dark"
+                    href="assets/pages/join.html"
+                    >Join</a
+                  >
+                </li>
+                <li><a class="px-2 px-lg-4 text-dark" href="#">Sponsor</a></li>
+                <li><a class="px-2 px-lg-4 text-dark" href="#">News</a></li>
+                <li>
+                  <a class="p-2 ml-lg-5 text-dark cl-orange last-item" href="#"
+                    >Ibanez Campaign</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="d-sm-block d-md-none">
           <button class="btn" id="navbar-toggler">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars cl-black"></i>
           </button>
           <div class="hide-div" id="navbarDiv">
-            <div class="bottom-nav-div w-100 bg-white">
+            <div class="bottom-nav-div w-100 bg-white h-100 py-3 px-2">
               <div>
                 <ul class="nav-list px-2">
-                  <li class="my-1"><a class="text-dark" href="#">About</a></li>
-                  <li class="my-1">
+                  <li class="my-2">
+                    <a class="text-dark" href="assets/pages/about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li class="my-2">
                     <a class="text-dark" href="#">Program</a>
                   </li>
-                  <li class="my-1"><a class="text-dark" href="#">Join</a></li>
-                  <li class="my-1">
+                  <li class="my-2">
+                    <a class="text-dark" href="assets/pages/join.html">Join</a>
+                  </li>
+                  <li class="my-2">
                     <a class="text-dark" href="#">Sponsor</a>
                   </li>
-                  <li class="my-1"><a class="text-dark" href="#">News</a></li>
-                  <li class="my-3">
-                    <a
-                      class="p-2 mx-lg-5 text-dark cl-orange last-item"
-                      href="#"
-                      >CC Campaign</a
+                  <li class="my-2"><a class="text-dark" href="#">News</a></li>
+                  <li class="my-4">
+                    <a class="p-2 text-dark cl-orange last-item" href="#"
+                      >Ibanez Campaign</a
                     >
                   </li>
                 </ul>
@@ -92,7 +114,342 @@
         </div>
       </nav>
     </header>
-    <div class="container"></div>
+
+    <!-- Invite Section -->
+
+    <section class="invite-section">
+      <div class="gradient w-100 h-100">
+        <div class="container d-flex flex-column justify-content-center h-100">
+          <h1 class="cl-orange">Hello! Guitar World!</h1>
+          <h2 class="big-tittle cl-orange my-2">
+            Ibanez guitar workshop on October 20th
+          </h2>
+          <p class="cl-black small-text mt-3 mb-0">
+            a remarkable workshop for experienced guitar players, come and learn
+            with the best players in the world!
+          </p>
+          <p class="date mt-4 mb-0 cl-black">2020.10.20(SAT) ~ 21(SUN)</p>
+          <p class="place">
+            @HSBC Arena, Barra da Tijuca, Rio de Janeiro, Brazil
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Program Section -->
+
+    <section class="main-program text-center">
+      <div
+        class="container d-block d-lg-flex row row-cols-lg-5 mx-auto my-0 px-0"
+      >
+        <article class="px-1 py-4">
+          <div class="card card-program d-flex justify-content-center">
+            <img
+              src="assets/images/techniques.jpg"
+              class="card-img-top"
+              alt="techniques image"
+            />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title card-program-title cl-orange">
+                Techniques
+              </h5>
+              <p class="card-text card-program-text cl-black">
+                Some quick examples of important techniques most used!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="px-1 py-4">
+          <div class="card card-program d-flex justify-content-center">
+            <img
+              src="assets/images/study-methods.jpg"
+              class="card-img-top"
+              alt="techniques image"
+            />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title card-program-title cl-orange">
+                Study Methods
+              </h5>
+              <p class="card-text card-program-text cl-black">
+                Learn how to study focused, and how it can boost your career!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="px-1 py-4">
+          <div class="card card-program d-flex justify-content-center">
+            <img
+              src="assets/images/hot-licks.jpg"
+              class="card-img-top"
+              alt="techniques image"
+            />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title card-program-title cl-orange">Hot Licks</h5>
+              <p class="card-text card-program-text cl-black">
+                Check out the latest hot licks with the best players!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="px-1 py-4">
+          <div class="card card-program d-flex justify-content-center">
+            <img
+              src="assets/images/analog-mixer.jpg"
+              class="card-img-top"
+              alt="techniques image"
+            />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title card-program-title cl-orange">Mixing</h5>
+              <p class="card-text card-program-text cl-black">
+                Learn how to mix different styles live and get the sound that
+                you ever wanted!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="px-1 py-4">
+          <div class="card card-program d-flex justify-content-center">
+            <img
+              src="assets/images/live-performance.jpg"
+              class="card-img-top"
+              alt="techniques image"
+            />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title card-program-title cl-orange">
+                Live Performance
+              </h5>
+              <p class="card-text card-program-text cl-black">
+                Get prepared for the biggest show of you career, check out these
+                hot tips about live performance!
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <a class="cl-gray" href="#">SEE THE WHOLE PROGRAM</a>
+    </section>
+
+    <!-- Featured Speakers Section -->
+
+    <section class="container featured-speakers mt-3">
+      <div class="container text-center mb-5">
+        <h1 class="cl-orange">Featured Speakers...</h1>
+      </div>
+      <div class="row row-cols-lg-2">
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/jake-bowen.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Jake Bowen</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    Hailing from upstate New York, guitarist Jake Bowen has been
+                    an integral cog in the Grammy-nominated progressive metal
+                    machine known as Periphery. Their 2010 self-titled debut
+                    solidified their place in the metal world and helped
+                    popularize an exciting new generation of music known as
+                    "djent".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/joe-satriani.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Joe Satriani</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    One of the most influential and respected instrumental rock
+                    guitarists to emerge in the past three decades, Joe Satriani
+                    is that rare "musician's musician" who's crossed over into
+                    the mainstream with music sublime and complex, appealing to
+                    a wide variety of tastes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="row row-cols-lg-2">
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/kiko-loureiro.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Kiko Loureiro</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    Ibanez is proud to introduce Kiko Loureiro to our artist
+                    roster. As a lead guitarist of the one of the most
+                    successful Brazilian progressive metal bands, Angra, Kiko
+                    has been highly praised internationally for his versatile
+                    and virtuosic guitar playing, gaining a reputation as a
+                    "player's player" in the international guitarist scene.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/Marco Sfogli.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Marco Sfogli</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    Marco Sfogli is a composer, arranger, mixing engineer, as
+                    well as being one of the most important and visible
+                    contemporary guitarists today. His influence on the electric
+                    guitar community is far reaching, thank to him being one of
+                    the top talents associated with the popular online guitar
+                    lesson website Jam Track Central.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="row row-cols-lg-2">
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/scott-lepage.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Scott LePage</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    The Dallas, TX-based instrumental outfit has just
+                    re-released their debut full-length, Muse, on Equal Vision
+                    Records. The album was originally self-released as an
+                    independent artist and is now available as a re-mastered,
+                    re-packaged release through the label.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4 mx-0 my-auto">
+                <img
+                  src="assets/images/Steve-vai.jpg"
+                  class="card-img"
+                  alt="jake bowen"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a class="cl-orange" href="#"
+                    ><h2 class="card-title">Steve Vai</h2></a
+                  >
+                  <p class="card-text cl-black">
+                    Steve Vai is a virtuoso guitarist, visionary composer, and
+                    consummate producer who sculpts musical sound with infinite
+                    creativity and technical mastery. At age 12, he started
+                    taking guitar lessons from Joe Satriani. At 18, he began his
+                    professional musical career transcribing for, and then
+                    playing with, the legendary Frank Zappa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+
+    <section
+      class="container partners text-center d-flex flex-column justify-content-between"
+    >
+      <h2 class="pt-3 cl-gray">Partner</h2>
+      <ul
+        class="partners-list d-flex w-100 justify-content-between mt-0 mx-auto mb-5 px-5"
+      >
+        <li>
+          <a href="#"><i class="cl-gray fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="cl-gray fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="cl-gray fab fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="cl-gray fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer
+      class="d-flex foot container justify-content-between align-items-center"
+    >
+      <div>
+        <a href="index.html"
+          ><img src="assets/images/ibanez-logo.png" alt="Ibanez logo"
+        /></a>
+      </div>
+      <div>
+        <p class="mb-0">
+          Copyright © 2020 Ibanez guitars. All right reserved. Products and
+          specifications are subject to change without notice
+        </p>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
