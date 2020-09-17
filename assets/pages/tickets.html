@@ -1,460 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>CC Global Summit 2015 on Behance</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/assets/stylesheets/main.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar w-100 p-0">
-        <div class="d-none d-md-block top-nav-div bg-dark px-5 w-100">
-          <div class="container d-flex justify-content-end align-items-center">
-            <a href="#"><i class="fab fa-facebook-f text-white px-2"></i></a>
-            <a href="#"><i class="fab fa-twitter text-white px-2"></i></a>
-            <a class="text-white px-2" href="#">English</a>
-            <a class="text-white px-2" href="#">My Page</a>
-            <a class="text-white px-2" href="#">Logout</a>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CC Global Summit 2015 on Behance</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/stylesheets/main.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar w-100 p-0">
+      <div class="d-none d-md-block top-nav-div bg-dark px-5 w-100">
+        <div class="container d-flex justify-content-end align-items-center">
+          <a href="#"><i class="fab fa-facebook-f text-white px-2"></i></a>
+          <a href="#"><i class="fab fa-twitter text-white px-2"></i></a>
+          <a class="text-white px-2" href="#">English</a>
+          <a class="text-white px-2" href="#">My Page</a>
+          <a class="text-white px-2" href="#">Logout</a>
         </div>
-        <div
-          class="bottom-nav-div d-none w-100 d-md-flex justify-content-between align-items-center bg-white px-5"
-        >
-          <div class="container">
-            <div>
-              <a href="/index.html">
-                <img
-                  class="nav-logo"
-                  src="/assets/images/ibanez-logo.png"
-                  alt="CC Global Summit 2015 logo"
-                />
-              </a>
-            </div>
-            <div>
-              <ul class="d-flex nav-list mb-0">
-                <li>
-                  <a class="px-2 px-lg-4 text-dark" href="about.html">About</a>
-                </li>
-                <li>
-                  <a class="px-2 px-lg-4 text-dark" href="tickets.html"
-                    >Tickets</a
-                  >
-                </li>
-                <li>
-                  <a class="p-2 ml-lg-5 text-dark cl-orange last-item" href="#"
-                    >Ibanez Campaign</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="d-sm-block d-md-none">
-          <button class="btn" id="navbar-toggler" type="button">
-            <i class="fas fa-bars cl-black"></i>
-          </button>
-          <div class="hide-div" id="navbarDiv">
-            <div class="bottom-nav-div w-100 bg-white h-100 py-3 px-2">
-              <div>
-                <ul class="nav-list px-2">
-                  <li class="my-2">
-                    <a class="text-dark" href="/index.html">Home</a>
-                  </li>
-                  <li class="my-2">
-                    <a class="text-dark" href="about.html">About</a>
-                  </li>
-                  <li class="my-2">
-                    <a class="text-dark" href="tickets.html">Tickets</a>
-                  </li>
-                  <li class="my-4">
-                    <a class="p-2 text-dark cl-orange last-item" href="#"
-                      >Ibanez Campaign</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <section class="prices text-center d-flex flex-column align-items-center">
-      <h2 class="mt-5 cl-black">Select Tickets...</h2>
-      <div
-        class="middle-text border border-secondary rounded-pill mt-5 mb-2 py-2 px-4 w-75"
-      >
-        <span class="color-orange">• Step 1</span>
-        <span
-          >&nbsp; Please select the day you when you want to join Ibanez Guitar
-          Workshop</span
-        >
       </div>
-      <div class="mb-5 mt-3 d-none d-md-block">
-        <div class="prices p-3 mx-4">
-          <div class="row border bg-light">
-            <div
-              class="col-md-1 d-flex justify-content-center border-right align-items-center px-4"
-            >
-              Ticket
-            </div>
-            <div
-              class="col-md-2 d-flex justify-content-center border-right align-items-center"
-            >
-              2-Days-Ticket
-            </div>
-            <div
-              class="col-md-6 d-flex px-5 justify-content-center border-right align-items-center"
-            >
-              1-Day-Ticket
-            </div>
-            <div
-              class="col-md-3 d-flex justify-content-center align-items-center"
-            >
-              Ibanez Afiliate
-            </div>
+      <div class="bottom-nav-div d-none w-100 d-md-flex justify-content-between align-items-center bg-white px-5">
+        <div class="container">
+          <div>
+            <a href="/index.html">
+              <img class="nav-logo" src="/assets/images/ibanez-logo.png" alt="CC Global Summit 2015 logo" />
+            </a>
           </div>
-
-          <div class="prices-item f-1 row border border-top-0 bg-white">
-            <div
-              class="col-md-1 d-flex justify-content-center border-right align-items-center px-4"
-            >
-              Date
-            </div>
-            <div
-              class="col-md-2 d-flex justify-content-center border-right align-items-center"
-            >
-              20-21. Oct (Sat-Sun)
-            </div>
-            <div
-              class="col-md-6 d-flex px-5 justify-content-between border-right align-items-center"
-            >
-              <div class="date-box d-flex justify-content-center mr-1">
-                20. Oct (sat)
-              </div>
-
-              <div class="date-box d-flex justify-content-center ml-1">
-                21. Oct (sun)
-              </div>
-            </div>
-            <div
-              class="col-md-3 d-flex justify-content-center align-items-center"
-            >
-              Ibanez Afiliate
-            </div>
-          </div>
-
-          <div class="prices-item-b f-1 row border border-top-0 bg-white">
-            <div
-              class="col-md-1 d-flex justify-content-center border-right align-items-center px-4"
-            >
-              Normal
-            </div>
-            <div
-              class="col-md-2 d-flex flex-column justify-content-center align-items-center border-right color-orange"
-            >
-              <span><s>U$</s>&nbsp; 179.99</span
-              ><input class="radio-btn" type="radio" />
-            </div>
-            <div
-              class="col-md-6 d-flex justify-content-between border-right px-4"
-            >
-              <div
-                class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange"
-              >
-                <span><s>U$</s>&nbsp; 99.99</span
-                ><input class="radio-btn" type="radio" />
-              </div>
-
-              <div
-                class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange"
-              >
-                <span><s>U$</s>&nbsp; 99.99</span
-                ><input class="radio-btn" type="radio" />
-              </div>
-            </div>
-            <div
-              class="col-md-3 d-flex flex-column justify-content-center align-items-center color-orange"
-            >
-              <span><s>U$</s>&nbsp; 99.99</span
-              ><input class="radio-btn" type="radio" />
-            </div>
-          </div>
-
-          <div class="prices-item-b f-1 row border border-top-0 bg-white">
-            <div
-              class="col-md-1 d-flex justify-content-center border-right align-items-center px-4"
-            >
-              Student
-            </div>
-            <div
-              class="col-md-2 d-flex flex-column justify-content-center align-items-center border-right color-orange"
-            >
-              <span><s>U$</s>&nbsp; 159.99</span
-              ><input class="radio-btn" type="radio" />
-            </div>
-            <div
-              class="col-md-6 d-flex justify-content-between border-right px-4"
-            >
-              <div
-                class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange"
-              >
-                <span><s>U$</s>&nbsp; 99.99</span
-                ><input class="radio-btn" type="radio" />
-              </div>
-
-              <div
-                class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange"
-              >
-                <span><s>U$</s>&nbsp; 99.99</span
-                ><input class="radio-btn" type="radio" />
-              </div>
-            </div>
-            <div
-              class="col-md-3 d-flex flex-column justify-content-center align-items-center color-orange"
-            >
-              <span><s>U$</s>&nbsp; 99.99</span
-              ><input class="radio-btn" type="radio" />
-            </div>
+          <div>
+            <ul class="d-flex nav-list mb-0">
+              <li>
+                <a class="px-2 px-lg-4 text-dark" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="px-2 px-lg-4 text-dark" href="tickets.html">tickets</a>
+              </li>
+              <li>
+                <a class="p-2 ml-lg-5 text-dark cl-orange last-item" href="#">Ibanez Campaign</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="mb-1 mt-3 d-md-none w-100">
-        <div class="prices p-3 mx-4">
-          <div class="row border bg-light">
-            <div class="col-sm-12 py-2">2-Days-Ticket</div>
-            <div class="col-sm-12 py-2">20-21. Oct (Sat-Sun)</div>
-            <div class="col-sm-6 py-2">NORMAL U$ 199.99</div>
-            <div class="col-sm-6 py-2">STUDENT U$ 159.99</div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
-            </div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
-            </div>
+    </nav>
+    <nav class="navbar d-sm-block d-md-none w-100 p-0 bg-white">
+      <button class="btn" id="navbar-toggler" type="button">
+        <i class="fas fa-bars cl-black"></i>
+      </button>
+      <div class="hide-div" id="navbarDiv">
+        <div class="bottom-nav-div w-100 bg-white h-100 py-3 px-2">
+          <div>
+            <ul class="nav-list px-2">
+              <li class="my-2">
+                <a class="text-dark" href="/index.html">Home</a>
+              </li>
+              <li class="my-2">
+                <a class="text-dark" href="about.html">About</a>
+              </li>
+              <li class="my-2">
+                <a class="text-dark" href="tickets.html">tickets</a>
+              </li>
+              <li class="my-4">
+                <a class="p-2 text-dark cl-orange last-item" href="#">Ibanez Campaign</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="d-md-none w-100">
-        <div class="prices p-3 mx-4">
-          <div class="row border bg-light">
-            <div class="col-sm-12 py-2">1-Day-Ticket</div>
-            <div class="col-sm-12 py-2">20. Oct (Sat)</div>
-            <div class="col-sm-6 py-2">NORMAL U$ 99.99</div>
-            <div class="col-sm-6 py-2">STUDENT U$ 79.99</div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
+    </nav>
+  </header>
+  <main class="prices text-center d-flex flex-column align-items-center">
+    <h1 class="cl-orange pt-4 cocogoose">Buy your tickets</h1>
+    <h2 class="mt-5 cl-black">Select Tickets...</h2>
+    <div class="steps border border-secondary rounded-pill mt-5 mb-2 py-2 px-4 w-75">
+      <span class="color-orange">• Step 1</span>
+      <span>&nbsp; Please select the day you when you want to join Ibanez Guitar
+        Workshop</span>
+    </div>
+    <div class="mb-5 mt-3 d-none d-md-block w-100">
+      <div class="prices p-3 mx-4">
+        <div class="row border bg-light">
+          <div class="col-md-1 px-5 d-flex justify-content-center border-right align-items-center">
+            Ticket
+          </div>
+          <div class="col-md-2 d-flex justify-content-center border-right align-items-center">
+            2-Days-Ticket
+          </div>
+          <div class="col-md-5 d-flex px-5 justify-content-center border-right align-items-center">
+            1-Day-Ticket
+          </div>
+          <div class="col-md-3 d-flex justify-content-center align-items-center">
+            Ibanez Afiliate
+          </div>
+        </div>
+
+        <div class="prices-item row border border-top-0 bg-white">
+          <div class="col-md-1 px-5 d-flex justify-content-center border-right align-items-center px-4">
+            Date
+          </div>
+          <div class="col-md-2 d-flex justify-content-center border-right align-items-center">
+            20-21. Oct (Sat-Sun)
+          </div>
+          <div class="col-md-5 d-flex px-5 justify-content-between border-right align-items-center">
+            <div class="date-box d-flex justify-content-center mr-1">
+              20. Oct (sat)
             </div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
+
+            <div class="date-box d-flex justify-content-center ml-1">
+              21. Oct (sun)
             </div>
-            <div class="col-sm-12 py-2">1-Day-Ticket</div>
-            <div class="col-sm-12 py-2">21. Oct (Sun)</div>
-            <div class="col-sm-6 py-2">NORMAL U$ 99.99</div>
-            <div class="col-sm-6 py-2">STUDENT U$ 79.99</div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
+          </div>
+          <div class="col-md-3 d-flex justify-content-center align-items-center">
+            Ibanez Afiliate
+          </div>
+        </div>
+
+        <div class="prices-item-b row border border-top-0 bg-white">
+          <div class="col-md-1 px-5 d-flex justify-content-center border-right align-items-center px-4">
+            Normal
+          </div>
+          <div class="col-md-2 d-flex flex-column justify-content-center align-items-center border-right color-orange">
+            <span><s>U$</s>&nbsp; 179.99</span><input class="radio-btn" type="radio" />
+          </div>
+          <div class="col-md-5 d-flex justify-content-between border-right px-4">
+            <div class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange">
+              <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
             </div>
-            <div class="col-sm-6 py-2">
-              <input class="radio-btn" type="radio" />
+
+            <div class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange">
+              <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
             </div>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center align-items-center color-orange">
+            <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
+          </div>
+        </div>
+
+        <div class="prices-item-b row border border-top-0 bg-white">
+          <div class="col-md-1 px-5 d-flex justify-content-center border-right align-items-center px-4">
+            Student
+          </div>
+          <div class="col-md-2 d-flex flex-column justify-content-center align-items-center border-right color-orange">
+            <span><s>U$</s>&nbsp; 159.99</span><input class="radio-btn" type="radio" />
+          </div>
+          <div class="col-md-5 d-flex justify-content-between border-right px-4">
+            <div class="prices-box d-flex flex-column align-items-center px-4 color-orange">
+              <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
+            </div>
+
+            <div class="prices-box d-flex flex-column justify-content-center align-items-center px-4 color-orange">
+              <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
+            </div>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center align-items-center color-orange">
+            <span><s>U$</s>&nbsp; 99.99</span><input class="radio-btn" type="radio" />
           </div>
         </div>
       </div>
-      <div class="mb-1 mt-3 d-md-none w-100">
-        <div class="prices p-3 mx-4">
-          <div class="row border bg-light">
-            <div class="col-sm-12 py-2">Ibanez Afiliate</div>
-            <div class="col-sm-12 py-2">20-21. Oct (Sat-Sun)</div>
-            <div class="col-sm-12 py-2">U$ 119.99</div>
-            <div class="col-sm-12 py-2">
-              <input class="radio-btn" type="radio" />
-            </div>
-            <div class="col-sm-12 py-2">1-Day-Ticket</div>
-            <div class="col-sm-12 py-2">20. Oct (Sat)</div>
-            <div class="col-sm-12 py-2">U$ 59.99</div>
-            <div class="col-sm-12 py-2">
-              <input class="radio-btn" type="radio" />
-            </div>
-            <div class="col-sm-12 py-2">1-Day-Ticket</div>
-            <div class="col-sm-12 py-2">21. Oct (Sun)</div>
-            <div class="col-sm-12 py-2">U$ 59.99</div>
-            <div class="col-sm-12 py-2">
-              <input class="radio-btn" type="radio" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Select Lunch Section -->
-
-    <section
-      class="d-flex flex-column align-items-center justify-content-center bg-white border-top"
-    >
-      <div
-        class="rhomb d-flex justify-content-center align-items-center color-white font-weight-bold"
-      >
-        ¤
-      </div>
-
-      <div class="py-3 my-2 d-flex flex-column align-items-center w-100">
-        <h2 class="main-program-title py-2 text-center cl-black">
-          Select your lunch...
-        </h2>
-        <div class="line border-bottom border-danger"></div>
-        <div
-          class="middle-text border d-flex align-items-center justify-content-center border-secondary rounded-pill my-4 py-2 px-4 w-75"
-        >
-          <span class="color-orange">• Step 2</span>
-          <span
-            >&nbsp; Please select your lunch for registered day. There will be
-            no further coastsfor the lunch.</span
-          >
-        </div>
-      </div>
-
-      <div class="menus prices col mb-3">
-        <div
-          class="menu-title col-12 d-flex justify-content-center py-4 align-items-center f-1 font-weight-bold"
-        >
-          Day-1
-        </div>
-        <div class="menus-1 row py-5">
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 1 &nbsp; &nbsp;
+    </div>
+    <div class="mb-1 mt-3 d-md-none w-100">
+      <div class="prices p-3 mx-4">
+        <div class="row border bg-light">
+          <div class="col-sm-12 py-2">2-Days-Ticket</div>
+          <div class="col-sm-12 py-2">20-21. Oct (Sat-Sun)</div>
+          <div class="col-sm-6 py-2">NORMAL U$ 199.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 2 &nbsp; &nbsp;
-            <input class="radio-btn" type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 3 &nbsp; &nbsp;
-            <input class="radio-btn" type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 4 &nbsp; &nbsp;
-            <input class="radio-btn" type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 5 &nbsp; &nbsp;
-            <input type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 6 &nbsp; &nbsp;
+          <div class="col-sm-6 py-2">STUDENT U$ 159.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
         </div>
       </div>
-
-      <div class="menus prices col my-3">
-        <div
-          class="menu-title col-12 d-flex justify-content-center py-4 align-items-center f-1 font-weight-bold"
-        >
-          Day-2
-        </div>
-        <div class="menus-1 row py-5">
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 1 &nbsp; &nbsp;
+    </div>
+    <div class="d-md-none w-100">
+      <div class="prices p-3 mx-4">
+        <div class="row border bg-light">
+          <div class="col-sm-12 py-2">1-Day-Ticket</div>
+          <div class="col-sm-12 py-2">20. Oct (Sat)</div>
+          <div class="col-sm-6 py-2">NORMAL U$ 99.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 2 &nbsp; &nbsp;
+          <div class="col-sm-6 py-2">STUDENT U$ 79.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 3 &nbsp; &nbsp;
+          <div class="col-sm-12 py-2">1-Day-Ticket</div>
+          <div class="col-sm-12 py-2">21. Oct (Sun)</div>
+          <div class="col-sm-6 py-2">NORMAL U$ 99.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 4 &nbsp; &nbsp;
-            <input class="radio-btn" type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 5 &nbsp; &nbsp;
-            <input type="radio" />
-          </div>
-          <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
-            menu 6 &nbsp; &nbsp;
+          <div class="col-sm-6 py-2">STUDENT U$ 79.99</div>
+          <div class="col-sm-6 py-2">
             <input class="radio-btn" type="radio" />
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Partners Section -->
-
-    <section
-      class="partners text-center d-flex flex-column justify-content-between"
-    >
-      <h2 class="pt-3 cl-gray">Partner</h2>
-      <ul
-        class="partners-list d-flex w-100 justify-content-between mt-0 mx-auto mb-5 px-5"
-      >
-        <li>
-          <a href="#"><i class="cl-gray fab fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="cl-gray fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="cl-gray fab fa-linkedin-in"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="cl-gray fab fa-instagram"></i></a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Footer Section -->
-
-    <footer class="d-flex foot justify-content-between align-items-center px-5">
-      <div>
-        <a href="index.html"
-          ><img src="/assets/images/ibanez-logo.png" alt="Ibanez logo"
-        /></a>
+    </div>
+    <div class="mb-1 mt-3 d-md-none w-100">
+      <div class="prices p-3 mx-4">
+        <div class="row border bg-light">
+          <div class="col-sm-12 py-2">Ibanez Afiliate</div>
+          <div class="col-sm-12 py-2">20-21. Oct (Sat-Sun)</div>
+          <div class="col-sm-12 py-2">U$ 119.99</div>
+          <div class="col-sm-12 py-2">
+            <input class="radio-btn" type="radio" />
+          </div>
+          <div class="col-sm-12 py-2">1-Day-Ticket</div>
+          <div class="col-sm-12 py-2">20. Oct (Sat)</div>
+          <div class="col-sm-12 py-2">U$ 59.99</div>
+          <div class="col-sm-12 py-2">
+            <input class="radio-btn" type="radio" />
+          </div>
+          <div class="col-sm-12 py-2">1-Day-Ticket</div>
+          <div class="col-sm-12 py-2">21. Oct (Sun)</div>
+          <div class="col-sm-12 py-2">U$ 59.99</div>
+          <div class="col-sm-12 py-2">
+            <input class="radio-btn" type="radio" />
+          </div>
+        </div>
       </div>
-      <div>
-        <p class="mb-0">
-          Copyright © 2020 Ibanez guitars. All right reserved. Products and
-          specifications are subject to change without notice
-        </p>
+    </div>
+  </main>
+
+  <!-- Select Lunch Section -->
+
+  <section class="d-flex flex-column align-items-center justify-content-center bg-white border-top">
+    <div class="rhomb d-flex justify-content-center align-items-center color-white font-weight-bold">
+      ¤
+    </div>
+
+    <div class="py-3 my-2 d-flex flex-column align-items-center w-100">
+      <h2 class="main-program-title py-2 text-center cl-black">
+        Select your lunch...
+      </h2>
+      <div class="line border-bottom border-danger"></div>
+      <div class="steps border border-secondary rounded-pill mt-5 mb-2 py-2 px-4 w-75">
+        <span class="color-orange">• Step 2</span>
+        <span>&nbsp; Please select your lunch for registered day. There will be
+          no further coastsfor the lunch.</span>
       </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/assets/scripts/nav-btn.js"></script>
-  </body>
+    </div>
+
+    <div class="menus prices col mb-3">
+      <div class="menu-title col-12 d-flex justify-content-center py-4 align-items-center font-weight-bold">
+        Day-1
+      </div>
+      <div class="menus-1 row py-5">
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 1 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 2 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 3 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 4 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 5 &nbsp; &nbsp;
+          <input type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 6 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+      </div>
+    </div>
+
+    <div class="menus prices col my-3">
+      <div class="menu-title col-12 d-flex justify-content-center py-4 align-items-center font-weight-bold">
+        Day-2
+      </div>
+      <div class="menus-1 row py-5">
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 1 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 2 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 3 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 4 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 5 &nbsp; &nbsp;
+          <input type="radio" />
+        </div>
+        <div class="menu-1 col-lg-2 d-flex justify-content-center">
+          menu 6 &nbsp; &nbsp;
+          <input class="radio-btn" type="radio" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+
+  <section class="partners text-center d-flex flex-column justify-content-between">
+    <h2 class="pt-3 cl-gray">Partner</h2>
+    <ul class="partners-list d-flex w-100 justify-content-between mt-0 mx-auto mb-5 px-5">
+      <li>
+        <a href="#"><i class="cl-gray fab fa-facebook-f"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="cl-gray fab fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="cl-gray fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="cl-gray fab fa-instagram"></i></a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+
+  <footer class="d-flex foot justify-content-between align-items-center px-5">
+    <div>
+      <a href="index.html"><img src="/assets/images/ibanez-logo.png" alt="Ibanez logo" /></a>
+    </div>
+    <div>
+      <p class="mb-0">
+        Copyright © 2020 Ibanez guitars. All right reserved. Products and
+        specifications are subject to change without notice
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="/assets/scripts/nav-btn.js"></script>
+</body>
+
 </html>
