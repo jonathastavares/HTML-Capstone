@@ -394,6 +394,17 @@ img {
   color: #ec5242;
 }
 
+/* Featured Speakers */
+
+.featured-speakers .card {
+  border: 0;
+  height: 250px;
+}
+
+.featured-speakers h2:hover {
+  color: #272a31;
+}
+
 /* Partners Section */
 
 .partners {
@@ -460,4 +471,9 @@ img {
 
 .opacity {
   opacity: 0.6;
+}
+
+.workshops {
+  padding: 35px;
+  background-color: #ec5242;
 }

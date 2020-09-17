@@ -44,7 +44,3 @@ Give a ⭐️ if you like this project!
 This project was inspired by:
 
 - [CC Global Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
