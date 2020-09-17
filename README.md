@@ -4,7 +4,11 @@
 
 > Made responsive via bootstrap
 
-![screenshot](./assets/images/app_screenshot.jpg)
+> This project was inspired in [CC Global Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design, it was built by [@jonathastavares](https://github.com/jonathastavares), and it's about a guitar workshop conference.
+
+> The page displays on the main part the most important information, what is the page about, when the workshop is scheduled and where it will happens. This simple layout can be applied to a lot of purposes.
+
+![screenshot](/assets/images/screenshot.jpg)
 
 ## Built With
 
@@ -36,6 +40,8 @@ Feel free to check the [issues page](https://github.com/jonathastavares/HTML-Cap
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+This project was inspired by:
 
 - [CC Global Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 

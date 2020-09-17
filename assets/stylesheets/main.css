@@ -9,6 +9,10 @@ body {
     serif;
 }
 
+img {
+  object-fit: cover;
+}
+
 .cl-orange {
   color: #ec5242;
 }
@@ -323,14 +327,17 @@ body {
 .navbar {
   position: fixed;
   z-index: 3;
+  padding: 0;
 }
 
 .top-nav-div {
   height: 30px;
+  padding: 0 36px;
 }
 
 .bottom-nav-div {
   height: 90px;
+  padding: 0 36px;
 }
 
 .nav-logo {
@@ -389,13 +396,15 @@ body {
 /* Partners Section */
 
 .partners {
-  height: 300px;
+  height: 150px;
   background-color: #272a31;
+  justify-content: space-between;
 }
 
 .partners-list {
   list-style: none;
   padding-inline-start: 0;
+  justify-content: space-between;
 }
 
 .partners-list i {
@@ -414,8 +423,28 @@ body {
   background-color: #d3d3d3;
 }
 
+.border-div {
+  background: url(../images/border-bg.jpg);
+  background-size: 10rem;
+}
+
 .prices h1 {
   font-size: 3em;
+}
+
+.cart-btn {
+  background-color: #ec5242;
+  padding: 20px 60px;
+  margin-bottom: 15px;
+}
+
+.form {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ec5242;
+  transform: rotateZ(45deg) translate(-1.7rem, -1.7rem);
+  font-size: 1.5rem;
+  margin-top: 60px;
 }
 
 /* About Page - About Section */
