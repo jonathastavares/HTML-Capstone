@@ -102,11 +102,11 @@ img {
   }
 
   .main-program {
-    height: 2350px;
+    height: 2850px;
   }
 
   .card-program {
-    height: 410px;
+    height: 500px;
     border: none;
   }
 
@@ -120,6 +120,10 @@ img {
 
   .card-program-text {
     font-size: 1em;
+  }
+
+  .featured-speakers .card {
+    height: 650px;
   }
 
   .about {
@@ -176,6 +180,10 @@ img {
 
   .invite-section {
     height: 690px;
+  }
+
+  .featured-speakers .card {
+    height: 750px;
   }
 
   .about {
@@ -259,6 +267,10 @@ img {
     font-size: 1em;
   }
 
+  .featured-speakers .card {
+    height: 280px;
+  }
+
   .about {
     height: 710px;
   }
@@ -277,6 +289,17 @@ img {
 
   .about .card-text {
     font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-program {
+    height: 800px;
+  }
+
+  .card-program {
+    height: 680px;
+    border: none;
   }
 }
 
@@ -398,7 +421,6 @@ img {
 
 .featured-speakers .card {
   border: 0;
-  height: 250px;
 }
 
 .featured-speakers h2:hover {
