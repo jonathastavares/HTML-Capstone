@@ -1,0 +1,503 @@
+body {
+  font-family:
+    "Lato",
+    Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    "Times New Roman",
+    serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+.cl-orange {
+  color: #ec5242;
+}
+
+.cl-black {
+  color: #272a31;
+}
+
+.cl-gray {
+  color: #d3d3d3;
+}
+
+.gradient {
+  background: linear-gradient(to bottom, #ffffffc0, #ffffff9f);
+  z-index: 2;
+}
+
+.cocogoose {
+  font-family:
+    "Cocogoose",
+    Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    "Times New Roman",
+    serif;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../fonts/Pro-trial.ttf");
+}
+
+@media only screen and (min-width: 1px) {
+  header {
+    height: 50px;
+  }
+
+  .navbar {
+    position: fixed;
+    z-index: 3;
+  }
+
+  .hide-div {
+    position: absolute;
+    width: 60%;
+    left: -450px;
+    top: 50px;
+    z-index: 3;
+    transition: 0.3s ease-in;
+  }
+
+  .show-div {
+    top: 50px;
+    position: absolute;
+    left: 0;
+    transition: 0.3s ease-in;
+  }
+
+  .big-tittle {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .small-text {
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  .date {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .place {
+    font-size: 0.9em;
+  }
+
+  .invite-section {
+    height: 520px;
+  }
+
+  .main-program {
+    height: 2850px;
+  }
+
+  .card-program {
+    height: 500px;
+    border: none;
+  }
+
+  .card-program img {
+    height: 280px;
+  }
+
+  .card-program-title {
+    font-size: 2em;
+  }
+
+  .card-program-text {
+    font-size: 1em;
+  }
+
+  .featured-speakers .card {
+    height: 650px;
+  }
+
+  .about {
+    height: 530px;
+  }
+
+  .steps {
+    font-size: 0.7em;
+  }
+
+  .foot img {
+    width: 70px;
+  }
+
+  .foot p {
+    font-size: 0.6em;
+    margin-left: 30px;
+  }
+
+  .about h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  .about .card-text {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .hide-div {
+    width: 50%;
+  }
+
+  .big-tittle {
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .small-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  .date {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .place {
+    font-size: 1.2em;
+  }
+
+  .invite-section {
+    height: 690px;
+  }
+
+  .featured-speakers .card {
+    height: 750px;
+  }
+
+  .about {
+    height: 690px;
+  }
+
+  .steps {
+    font-size: 0.7em;
+  }
+
+  .about h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  .about .card-text {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 120px;
+  }
+
+  .navbar {
+    height: 120px;
+  }
+
+  .nav-logo {
+    width: 140px;
+  }
+
+  .gradient {
+    top: 120px;
+  }
+
+  .big-tittle {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .small-text {
+    font-size: 1.5em;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+
+  .date {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .place {
+    font-size: 1.5em;
+  }
+
+  .invite-section {
+    height: 930px;
+  }
+
+  .main-program {
+    height: 2700px;
+  }
+
+  .card-program {
+    height: 480px;
+    border: none;
+  }
+
+  .card-program img {
+    height: 350px;
+  }
+
+  .card-program-title {
+    font-size: 2.3em;
+  }
+
+  .card-program-text {
+    font-size: 1em;
+  }
+
+  .featured-speakers .card {
+    height: 280px;
+  }
+
+  .about {
+    height: 710px;
+  }
+
+  .steps {
+    font-size: 1em;
+  }
+
+  .foot img {
+    width: 120px;
+  }
+
+  .about h1 {
+    font-size: 4em;
+  }
+
+  .about .card-text {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-program {
+    height: 800px;
+  }
+
+  .card-program {
+    height: 680px;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-program {
+    height: 540px;
+  }
+
+  .card-program {
+    height: 430px;
+    border: none;
+  }
+
+  .card-program img {
+    height: 180px;
+  }
+
+  .card-program-title {
+    font-size: 1.1em;
+  }
+
+  .card-program-text {
+    font-size: 1em;
+  }
+
+  .about {
+    height: 690px;
+  }
+
+  .steps {
+    font-size: 1em;
+  }
+
+  .foot img {
+    width: 120px;
+  }
+
+  .about h1 {
+    font-size: 7em;
+  }
+
+  .about .card-text {
+    font-size: 1.4em;
+  }
+}
+
+/* Navbar Section */
+
+.navbar {
+  position: fixed;
+  z-index: 3;
+  padding: 0;
+}
+
+.top-nav-div {
+  height: 30px;
+  padding: 0 36px;
+}
+
+.bottom-nav-div {
+  height: 90px;
+  padding: 0 36px;
+}
+
+.nav-logo {
+  height: auto;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.last-item {
+  border: 4px solid #ec5242;
+}
+
+.btn i {
+  font-size: 2em;
+}
+
+/* Invite Section */
+
+.invite-section {
+  background-image: url(../images/kiko-background.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.big-tittle {
+  font-weight: bold;
+}
+
+.date {
+  font-weight: bold;
+}
+
+/* Main Program Section */
+
+.main-program {
+  background-image: url(../images/program-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.main-program a {
+  font-size: 1.8em;
+}
+
+.main-program a:hover {
+  font-size: 1.8em;
+  color: #ec5242;
+}
+
+/* Featured Speakers */
+
+.featured-speakers .card {
+  border: 0;
+}
+
+.featured-speakers h2:hover {
+  color: #272a31;
+}
+
+/* Partners Section */
+
+.partners {
+  height: 150px;
+  background-color: #272a31;
+  justify-content: space-between;
+}
+
+.partners-list {
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: space-between;
+}
+
+.partners-list i {
+  font-size: 3em;
+}
+
+/* Footer Section */
+
+.foot {
+  height: 100px;
+}
+
+/* Tickets Page - Price Section */
+
+.prices {
+  background-color: #d3d3d3;
+}
+
+.border-div {
+  background: url(../images/border-bg.jpg);
+  background-size: 10rem;
+}
+
+.prices h1 {
+  font-size: 3em;
+}
+
+.cart-btn {
+  background-color: #ec5242;
+  padding: 20px 60px;
+  margin-bottom: 15px;
+  border: 4px solid #272a31;
+}
+
+.form {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ec5242;
+  transform: rotateZ(45deg) translate(-1.7rem, -1.7rem);
+  font-size: 1.5rem;
+  margin-top: 60px;
+}
+
+/* About Page - About Section */
+
+.about {
+  background-image: url(../images/program-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.workshops {
+  padding: 35px;
+  background-color: #ec5242;
+  border: 4px solid #272a31;
+}
